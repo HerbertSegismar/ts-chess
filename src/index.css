@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: Oswald, sans-serif;
+}
+
+.twflex {
+  @apply flex items-center justify-center;
+}
+
+.twtransition {
+  @apply transition-all duration-300 ease-in-out;
+}
